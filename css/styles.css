@@ -241,6 +241,7 @@ body {
 .gallery-list {
 }
 .gallery-item {
+  border: 1px solid #e7e9fc;
 }
 .gallery-subtitle {
   font-weight: 500;
