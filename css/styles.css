@@ -6,6 +6,7 @@ body {
   --text-color: #434455;
   --title-color: #2e2f42;
   --typical-lh: 1.5;
+  --typical-bc: #fff;
 }
 .list {
   list-style: none;
@@ -40,12 +41,6 @@ body {
   color: #2e2f42;
 }
 .header-logo-row {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 .header-list {
@@ -57,12 +52,12 @@ body {
 .header-list a {
   color: #2e2f42;
 }
-.header-item > a:active {
+.header-item > a:active,
+.header-item > a:focus,
+.header-item > a:hover {
   color: #404bbf;
 }
-.header-lista:active {
-  color: #404bbf;
-}
+
 .header-item {
 }
 .header-address {
@@ -74,7 +69,9 @@ body {
 .header-address a {
   color: #434455;
 }
-.address-item > a:active {
+.address-item > a:active,
+.address-item > a:focus,
+.address-item > a:hover  {
   color: #404bbf;
 }
 .header-link {
@@ -87,7 +84,6 @@ body {
   background: #2e2f42;
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.08;
   text-align: center;
@@ -134,7 +130,6 @@ body {
   color: var(--subtitle-color);
 }
 .features-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
@@ -162,7 +157,7 @@ body {
 .team-list {
 }
 .team-item {
-  background-color: #fff;
+  background-color: var(--typical-bc);
 }
 .team-subtitle {
   font-weight: 500;
@@ -171,7 +166,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--subtitle-color);
-  background-color: #fff;
+  background-color: var(--typical-bc);
 }
 .team-text {
   font-size: 16px;
@@ -179,7 +174,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  background-color: #fff;
+  background-color: var(--typical-bc);
 }
 
 /*-----------------------FOOTER-------------------*/
@@ -196,12 +191,6 @@ body {
   color: #f4f4fd;
 }
 .footer-logo-row {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 .footer-text {
@@ -249,14 +238,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--subtitle-color);
-  background-color: #fff;
+  background-color: var(--typical-bc);
 }
 .gallery-text {
   font-size: 16px;
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: var(--text-color);
-  background-color: #fff;
+  background-color: var(--typical-bc);
 }
 .gallery {
 }
