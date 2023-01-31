@@ -1,5 +1,3 @@
-# goit-markup-hw-01
-hw2
 
 :root {
   --subtitle-color: #2e2f42;
@@ -11,3 +9,5 @@ hw2
   --typical-fw: 500;
   --accent-pasive-color: #4d5ae5;
   --accent-active-color: #404bbf;
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />

@@ -34,7 +34,10 @@ body {
 .header {
 }
 .header-navigation {
+  display: flex;
+
 }
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -48,6 +51,9 @@ body {
   color: var(--accent-pasive-color);
 }
 .header-list {
+  display: flex;
+  gap: 40px;
+
   font-weight: var(--typical-fw);
   font-size: var(--typical-fs);
   line-height: var(--typical-lh);
